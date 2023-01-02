@@ -1,0 +1,12 @@
+<ngb-accordion>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+      <div class="d-flex justify-content-center">
+        <i-bs [name]="iconName" *ngIf="!!iconName"></i-bs>
+        <p class="h6 mx-2 mt-1">{{ title }}</p>
+      </div>
+    </ng-template>
+
+    <ng-template ngbPanelContent> Items to display </ng-template>
+  </ngb-panel>
+</ngb-accordion>
