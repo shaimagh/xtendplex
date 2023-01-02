@@ -1,0 +1,59 @@
+.featured-image {
+  width: 100%;
+  height: 85vh !important;
+  background-image: url(src/assets/small_featured_image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .services-section-title {
+    margin-bottom: 6rem;
+  }
+
+  .featured-image {
+    background-image: url(src/assets/featured_image.png);
+  }
+
+  .scale-up-card-lg {
+    z-index: 1;
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  .semi-transparent-card-lg {
+    opacity: 0.6;
+  }
+}
+
+.search-card {
+  z-index: 1;
+  transform: translateY(30%);
+}
+
+.services-section {
+  margin-top: 12rem;
+}
+
+@media (max-width: 991px) {
+  .services-section {
+    margin-top: 8rem;
+  }
+
+  .services-section-title {
+    margin-bottom: 2rem;
+  }
+
+  .search-card {
+    z-index: 1;
+    transform: translateY(70%);
+  }
+
+  .feature-section-title {
+    font-size: 1.25rem !important;
+  }
+
+  .feature-section-description {
+    font-size: 0.875rem !important;
+  }
+}
